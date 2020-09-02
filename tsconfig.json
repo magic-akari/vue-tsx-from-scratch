@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "jsxFactory": "h",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "downlevelIteration": true,
+    "strict": true,
+    "baseUrl": "./",
+    "paths": {
+      "https://cdn.jsdelivr.net/npm/vue/dist/vue.esm.browser.js": [
+        "node_modules/vue/types"
+      ]
+    },
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

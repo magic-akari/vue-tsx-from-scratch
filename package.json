@@ -1,0 +1,27 @@
+{
+  "name": "vue-tsx-from-scratch",
+  "version": "0.0.0",
+  "description": "vue+tsx without cli",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magic-akari/vue-tsx-from-scratch.git"
+  },
+  "keywords": [
+    "vue",
+    "tsx"
+  ],
+  "author": "阿卡琳 <hufan.akarin@Gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magic-akari/vue-tsx-from-scratch/issues"
+  },
+  "homepage": "https://github.com/magic-akari/vue-tsx-from-scratch#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2",
+    "vue": "^2.6.12"
+  }
+}
